@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.submit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: 30px;
+}
+
+.container-star {
+    background-color: hsl(208, 12%, 22%);
+}
+
+.submit-section img {
+    max-width: max-content;
+    padding: 1rem;
+    background-color: hsl(208, 12%, 22%);
+    border-radius: 50%;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers li {
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(208, 12%, 22%);
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.numbers li:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.numbers li:active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.active-numbers {
+    color: hsl(0, 0%, 100%) !important;
+    background-color: hsl(25, 97%, 53%) !important;
+}
+
+#btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 2rem;
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding: 0.75rem;
+    font-size: 15px;
+}
+
+#btn-submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.thanks-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 400px;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    gap: 30px;
+    text-align: center;
+}
+
+.change-section {
+    display: none;
+}
+
+.text-info {
+    color: hsl(25, 97%, 53%);
+    border-radius: 2rem;
+    background-color: hsl(208, 12%, 22%);
+    padding: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 375px) {
+    .submit-section {
+        max-width: 350px;
+        gap: 15px;
+        border-radius: 1rem;
+        padding: 1.5rem;
+    }
+
+    .numbers li {
+        padding: 0.7rem 1.1rem;
+    }
+
+    .thanks-section {
+        max-width: 350px;
+        padding: 1.3rem;
+    }
+}
