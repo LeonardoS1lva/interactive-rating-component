@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-sPvTnJVx72)
 - Live Site URL: [Interactive rating component](https://leonardos1lva.github.io/interactive-rating-component/)
 
 ## My process
